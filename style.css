@@ -1,0 +1,900 @@
+@font-face {
+    font-family: 'Quincy';
+	src: url(Fonts/Quincy/Webfont/QuincyCF-BlackItalic.eot);
+}
+
+@font-face {
+    font-family: 'Trade Gothic';
+	src: url(Fonts/Trade Gothic/14 Trade Gothic Font Download/Trade Gothic LT Bold Condensed No. 20.ttf);
+}
+
+
+
+
+#body{
+    /* font-family: 'Quincy'; */
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+h1{
+	font-family: 'Trade Gothic';
+	text-shadow: 0px;
+}
+h2{
+    font-family: 'Trade Gothic';
+	text-shadow: 0px;
+    text-align: center;
+    margin: 15px 0;
+    color: var(--primary);
+}
+h4{
+    font-family: 'Trade Gothic';
+	text-shadow: 0px;
+}
+h5{
+    font-family: 'Trade Gothic';
+	text-shadow: 0px;
+}
+
+h6{
+    font-family: 'Trade Gothic';
+	text-shadow: 0px;
+}
+
+:root{
+    --primary:rgb(255, 230, 0);
+}
+
+
+
+
+
+
+
+
+
+
+header{
+    position: relative;
+}
+.first-dot{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.first-dot img{
+    width: 100px;
+    height: 75px;
+    transform: rotate(180deg);
+}
+.first1-dot img{
+    width: 100px;
+    height: 75px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header .logo-area{
+    text-align: center;
+}
+header .logo-area img:hover{
+    cursor: pointer;
+}
+header .logo-area img{
+    width: 300px;
+}
+
+
+.banner-bg{
+    background:url(images/firmbee-com-gcsNOsPEXfs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+}
+.banner-area{
+    background-color: rgba(0, 0, 0, 0.746);
+    padding: 50px 0;
+}
+.banner-area h1{
+    text-shadow: 2px 2px black;
+    margin: 15px 0;
+    font-weight: 600;
+}
+.banner-area h1 span{
+    color: white;
+}
+.banner-text{
+    width: 55%;
+    margin: 25px auto;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    
+}
+
+.button-area{}
+.button-area .button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 210, 8);
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 6px 10px;
+    box-shadow: 0px 0px 5px black;
+    border: 3px solid white;
+    transition: .5s;
+    margin: 10px 0;
+}
+.button-area .button:hover{
+    background-color: rgb(240, 240, 240);
+    color:black;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 6px 10px;
+    border: 3px solid rgb(255, 217, 1);
+}
+
+
+
+
+
+
+
+
+
+.section-2{
+    padding: 50px 0;
+}
+
+.section-2 h2{
+    margin: 25px 0;
+}
+
+.risks:hover{
+    background-color: rgb(255, 255, 255);
+}
+.risks{
+    margin: 15px;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    background-color: rgba(199, 199, 199, 0.904);
+    border-radius: 15px;
+    height: 200px;
+    transition: .6s;
+    position: relative;
+}
+.section-2{
+    position: relative;
+}
+
+.section-2:hover .risk-area::after{
+   height: 100px;
+}
+.risk-area::after{
+    content: " ";
+    width: 150px;
+    height: 0px;
+    background-color: white; var(--primary);
+    position: absolute;
+    top: 48%;
+    left: 44%;
+    border-radius: 20%;
+    z-index: -111111111;
+    opacity: 40%;
+    display: none;
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+.section-3 {
+    position: relative;
+    
+    
+}
+.sec3-flyer img{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 120px;
+    height: 100px;
+    opacity: 50%;
+}
+.sec3-flyer2 img{
+    position: absolute;
+    top: -20px;
+    right: 0;
+    width: 120px;
+    height: 100px;
+    opacity: 50%;
+}
+.section-3 h2{
+    width: 60%;
+    margin: 20px auto;
+    color: var(--primary);
+}
+.section-3 h2 span{
+    font-weight: 600;
+    font-size: 45px;
+    color: white;
+}
+.safe-area{
+    margin: 35px 0;
+    text-align: center;
+}
+.safe-area .safe-icon{
+    text-align: center;
+}
+.safe-area .safe-icon img{
+    width: 120px;
+    height: 120px;
+    margin: 15px 0;
+}
+
+.safty{
+    background-color:white;
+    color: black;
+    padding: 25px 0;
+  
+}
+.section-3 .row
+.safe-area-flying{
+   
+}
+.safe-area-flying img{
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    top: 19%;
+    right: 0%;
+    transform: translate(180deg);
+}
+.sub-safe{
+    margin-top: 50px;
+   
+}
+.subsafty{
+   
+    border-radius: 100px 0px 0px 0px;
+}
+.subsafty p{
+    width: 90%;
+    margin: 12px auto;
+}
+
+.safe-list{
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+.safe-list li:hover{
+    font-weight: 500;
+    
+}
+
+.safe-list li{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+
+
+
+
+
+.section-4{
+   margin-top: 75px;
+    background-image: url(images/ajkjds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    transition: 5s;
+}
+
+.section-4 .layer{
+    background-color:  rgba(0, 0, 0, 0.787);
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    transition: 4s;
+}
+
+.section-4 h2{
+    padding: 25px 0;
+    transition: .1;
+}
+
+.section-4:hover{
+    background-position: bottom;
+}
+.section-4 .layer:hover{
+   background-color: rgba(0, 0, 0, 0.89);
+}
+
+.section-4 .row{
+    transition: .1s;
+}
+
+.formula-icon{
+    text-align: center;
+}
+.formula-icon img{
+    width: 150px;
+    width: 120px;
+
+}
+.formula-left{
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.342);
+    padding: 20px;
+    border-radius: 15px;
+}
+.formula-left p{
+    margin: 30px 0;
+}
+.formula-left  span p{
+}
+
+
+
+
+
+
+
+.section-5{
+    background-color: rgb(236, 235, 235);
+    color: black;
+    border-radius: 20px;
+    position: relative;
+}
+.sec5-content{
+    margin-top: 50px;
+    overflow: hidden;
+}
+.section-5 .dots{
+    width: 98%;
+    margin:  0 auto;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+.section-5{
+    position: relative;
+}
+.sec5-flying{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    opacity:95%;
+    z-index: -11111;
+}
+.sec5-flying img{
+    width: 100%;
+    height: 100%;
+    
+}
+.section-5 h2{
+    margin:25px 0;
+    font-weight: 600;
+    color: black;
+}
+.section-5 h2 span{
+    color: rgb(38, 0, 255);
+    text-shadow: 2px 2px black;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.section-5 .sec5-topcontent{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 600;
+}
+.sec5-tocontent{}
+
+
+.Question-area{
+    line-height:25px;
+    margin: 25px 0;
+}
+.Question-area p{
+    font-weight: 600;
+}
+.question p span{
+    color: red;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 0px 3px black;
+}
+
+.question-bottom{
+    position: relative;
+}
+.question-bottom::after{
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: rgb(199, 155, 9);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+.question-bottom{
+    width: 100%;
+    padding: 20px 0;
+    margin: 15px 0;
+    background-color: rgb(0, 0, 0);
+}
+.question-bottom p{
+    font-size: 25px;
+    font-weight:600;
+    font-style: oblique;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+.section-5 .topic-list{
+    position: relative;
+    margin: 25px 0;
+}
+.section-5 .topic-lists h6{
+    font-weight: 600;
+    font-size: 20px;
+}
+.section-5 .sec5-content .right-content{
+    position: absolute;
+    bottom: 150px;
+    right: 20px;
+    text-align: right;
+    overflow: hidden;
+}
+
+.section-5 .sec5-content .right-content img{
+    width: 85%;
+    height: 500px;
+    border-radius: 25px 25px 25px 100px;
+    transition: .6s;
+}
+.topic-discuss{
+    font-size: 20px;
+    font-weight: 400;
+}
+.section-5 .topic-question li{
+    list-style: none;
+    font-weight: 500;
+}
+.section-5 .topic-question li span{
+    color: red;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+.section-6{
+    padding: 50px 0;
+}
+.section-6 h2{
+    font-weight: 500;
+}
+
+
+.income-top{
+    width: 60%;
+    margin: 30px auto;
+    text-align: center;
+}
+.section-6 .sub-top{
+    margin: auto 0px;
+    font-size: 22px;
+}
+.section-6 .income-img{
+   text-align: center;
+   background-color: whitesmoke;
+   padding: 20px;
+}
+.income-img img{
+    width: 90%;
+    height: 300px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.amount{
+    background-color: whitesmoke;
+    color: black;
+    padding: 25px 0;
+}
+.amount .left:hover{
+    box-shadow: 0px 0px 15px black;
+}
+.amount .left{
+    box-shadow: 0px 0px 5px black;
+    padding: 15px;
+    transition: .4s;
+}
+.amount .right:hover{ 
+    box-shadow: 0px 0px 15px black;
+
+}
+.amount .right{
+    box-shadow: 0px 0px 5px black;
+    padding: 70px 20px;
+    transition: .4s;
+}
+
+
+
+
+
+
+
+
+
+.section-7{
+    height: 100%;
+    padding: 50px 0;
+   border-top: .5px solid rgba(255, 255, 0, 0.555);
+   position: relative;
+}
+.section-7 h2{
+    padding: 35px 0;
+}
+.confusion::after{
+    content: '';
+    width: 50px;
+    height: 50%;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    border-radius: 50px 0px 0px 0px;
+}
+.confusion{
+    margin: 50px auto;
+    font-size: 24px;
+}
+.confusion p{}
+
+.security-img{}
+.security-img img{
+    width: 100%;
+    opacity: 70%;
+    border-radius: 20px;
+}
+
+.modules-area .abc{
+    width: 70%;
+}
+
+.modules-area{
+    width:80%;
+    height: 100%;
+}
+.section-7 .modules{
+    background-color: whitesmoke;
+    color: black;
+    margin: 10px 0;
+    padding: 25px 15px;
+    height: 250px;
+}
+
+
+.modules-area .abc:nth-child(even){
+     width: 50%;
+    float: right;
+    clear: left;
+}
+.modules-area .abc:nth-child(odd){
+     width: 50%;
+    float: left;
+    clear: right;
+}
+
+
+.modules h4:hover{
+     box-shadow: 0px 0px 8px rgb(10, 0, 149);
+}
+.modules h4{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 500;
+    transition: .6s;
+} 
+.modules h4 span{
+    color:yellow;
+    font-weight: 600;
+} 
+.section-7 .button-area{
+    width: 33%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+    margin-top: 50px;
+}
+.section-7  .tagless h4{
+    font-size: 30px;
+    margin: 25px 0;
+    font-weight: 600;
+}
+  
+
+
+
+
+
+
+
+
+.section-8{
+    padding: 50px 0;
+   border-top: .5px solid rgba(255, 255, 0, 0.555);
+}
+
+.section-8 .row{
+    margin-top: 40px;
+    position: relative;
+}
+
+.section-8 .row .left{
+    margin:70px 10px;
+}
+.section-8 .row .right{
+    margin: 70px 10px;
+}
+
+}
+.section-8 .instructor-img{
+    text-align: center;
+    position: relative;
+}
+.section-8 .instructor-img{
+    text-align: center;
+    position: relative;
+}
+ .section-8 .instructor-img1::before{
+    content: "";
+    width: 60px;
+    height: 100px;
+    background-color: rgb(214, 177, 12);
+    position: absolute;
+    left: 80px;
+    bottom: 0;
+    margin-left: -30px;
+    z-index: -9999999;
+}
+.section-8 .instructor-img img{
+    width: 70%;
+    height: 450px;
+    border-radius: 20px;
+    position: relative;
+}
+.section-8 .instructor-img2::before{
+    content: "";
+    width: 60px;
+    height: 100px;
+    background-color: rgb(211, 191, 10);
+    position: absolute;
+    bottom: 0;
+    right:50px;
+    z-index: -9999999;
+} 
+
+
+
+
+
+
+
+.section-9{
+    padding: 50px 0;
+   border-top: .5px solid rgba(255, 255, 0, 0.555);
+}
+.section-9 .border-area{
+    border: 5px solid rgba(255, 230, 0, 0.965);
+    padding: 50px 20px;
+}
+.section-9 h2{
+    margin: 25px 0;
+}
+.section-9 h4 span{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 30px;
+}
+.section-9 .border-area h4{
+    font-weight: 600;
+    color: yellow;
+  
+}
+.section-9 .border-area .list{
+    width: 80%;
+    margin: px 0;
+}
+.section-9 li{
+    list-style: none;
+    margin: 12px 0;
+}
+.section-9 li i{
+    color: yellow;
+    margin-right: 15px;
+    transition: .5s;
+}
+.section-9 li:hover i{
+    color: whitesmoke;
+}
+.section-9 li:hover{
+    color: rgb(255, 238, 2);
+    font-weight: 600;
+}
+.section-9 .li-list{
+    margin: 50px 0;
+}
+.section-9 .button-area{
+    text-align: center;
+    margin:30px 0;
+}
+.section-9 .note-area{
+    font-style: italic;
+}
+.section-9 .note-area p span{
+    color: yellow;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Trade Gothic';
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+.section-10{
+    padding: 50px 0;
+   border-top: .5px solid rgba(255, 255, 0, 0.555);
+}
+
+.subscribe-text{
+    width: 65%;
+    margin:20px auto ;
+}
+
+.template-area{
+    background-color:;
+    width: 70%;
+    margin:0 auto;
+}
+.template-area .subscribe-img{
+    width: 30%;
+    height: 300px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 25px;
+}
+.template-area .subscribe-img img{
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+.template-area .inputs:hover{ 
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px black;
+}
+.template-area .inputs{
+    width: 62%;
+    margin: auto 0;
+    background-color: rgba(224, 172, 0, 0.815);
+    padding: 25px 60px;
+    margin-left: -30px;
+    border-radius: 20px;
+    transition: .5s;
+}
+.template-area .inputs:hover input:nth-child(1){
+    border: 2px solid black;
+}
+.template-area .inputs input:nth-child(1){
+    width: 80%;
+    border-radius: 15px;
+    border: 1px solid whitesmoke;
+    padding: 5px 10px;
+    color: black;
+    background-color:rgba(230, 228, 228, 0.685);
+}
+.template-area  input:nth-child(2):hover{
+    background-color: rgb(0, 4, 255);
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+.template-area  input:nth-child(2){
+    border-radius: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px 10px;
+    margin-left: -50px;
+    color: white;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+.footer-area{
+	background-color: rgba(0, 0, 0, 0.867);
+}
+.footer-area .copy-right{
+	width: 50%;
+	text-align: right;
+	font-size: 17px;
+	padding: 10px 0;
+	font-weight: 600;
+	float: right;
+	overflow: hidden;
+}
+.footer-area .d-flex{
+	width:98%;
+	margin: 0 auto;
+}
+.footer-area .social-icon{
+	width: 50%;
+	text-align: left;
+	display: flex;
+	margin: 15px 0;
+}
+
+.footer-area .social-icon  i:hover{
+    color: whitesmoke;
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+.footer-area .social-icon  i{
+	font-size: 25px ;
+	margin: 10px;
+    color: yellow;
+    transition: 1s;
+    transform: rotate(10deg);
+}
+
+
+
+.copy-right p:hover{
+    color: whitesmoke;
+}
+.copy-right{
+	margin: 15px 0;
+    color:rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
