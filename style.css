@@ -298,6 +298,7 @@ header .logo-area img{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
+    transition: .9s;
 }
 
 .section-4 .layer{
@@ -305,12 +306,12 @@ header .logo-area img{
     width: 100%;
     height: 100%;
     padding: 50px 0;
-    transition: 4s;
+    transition: .4s;
 }
 
 .section-4 h2{
     padding: 25px 0;
-    transition: .1;
+    tr
 }
 
 .section-4:hover{
