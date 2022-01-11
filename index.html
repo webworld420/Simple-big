@@ -560,7 +560,7 @@
 				</div>
 				<div class="template-area">
 					<div class="d-flex">
-						<div class="subscribe-img">
+						<div class="subscribe-img" class=>
 							<img src="images/letter.png" alt="">
 						</div>
 						<div class="inputs">
@@ -582,8 +582,8 @@
 
 	<section class="footer-area" style="background-color: rgb(0, 0, 0)">
 		<div class="">
-			<div class="d-flex">
-				<div class="social-icon d-flex col-md-6">
+			<div class="row wrap" style="background-color: black;">
+				<div class="social-icon d-flex col-md-6 col-12">
 					<div class="icon">
 						<span><i class="fab fa-facebook"></i></span>
 					</div>
@@ -598,7 +598,7 @@
 					</div>
 				</div>
 
-				<div class="copy-right col-md-6" style="color: rgb(238, 255, 5);">
+				<div class="copy-right col-md-6 col-12" style="color: rgb(238, 255, 5); background-color: black;">
 					<p>&copy; CRN202412-1275516</p>
 				</div>
 			</div>
@@ -619,76 +619,11 @@
 		integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/49b05ba3b9.js" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="aos.js"></script>
-	<script type="text/javascript" src="owl.carousel.min.js"></script>
 	<script type="text/javascript">
-
-
-		$(".faq-box1").on('click', function () {
-			$(".faq-box1 .pluse").children('span').fadeToggle();
-			$(".faq-box1 .content-show").toggle(200)
-		});
-		$(".faq-box2 ").on('click', function () {
-			$(".faq-box2 .pluse").children('span').fadeToggle();
-			$(".faq-box2 .content-show2").toggle(200)
-		});
-		$(".faq-box3 ").on('click', function () {
-			$(".faq-box3 .pluse").children('span').fadeToggle();
-			$(".faq-box3 .content-show3").toggle(200)
-		});
-		$(".faq-box4 ").on('click', function () {
-			$(".faq-box4 .pluse").children('span').fadeToggle();
-			$(".faq-box4 .content-show4").toggle(200)
-		});
-		$(".faq-box5 ").on('click', function () {
-			$(".faq-box5 .pluse").children('span').fadeToggle();
-			$(".faq-box5 .content-show5").toggle(200)
-		});
-
-
 
 		AOS.init({
 			easing: 'ease-in-out-sine'
 		});
-
-
-
-
-		$('.owl-carousel').owlCarousel({
-			loop: true,
-			margin: 10,
-			nav: true,
-			responsive: {
-				0: {
-					items: 1
-				},
-				600: {
-					items: 2
-				},
-				1000: {
-					items: 3
-				}
-			}
-		});
-
-
-		var owl = $('.owl-carousel');
-		owl.owlCarousel({
-			items: 4,
-			loop: true,
-			margin: 10,
-			autoplay: true,
-			autoplayTimeout: 1000,
-			autoplayHoverPause: true
-		});
-		$('.play').on('click', function () {
-			owl.trigger('play.owl.autoplay', [1000])
-		})
-		$('.stop').on('click', function () {
-			owl.trigger('stop.owl.autoplay')
-		})
-
-
-
 
 
 	</script>
