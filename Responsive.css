@@ -122,8 +122,7 @@
         height: 60px;
         position: absolute;
         top: 13.5%;
-        right: 0%;
-        transform: translate(180deg);
+        display: none;
     }
     .safty{
         margin: 8px 0;
